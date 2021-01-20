@@ -10,6 +10,10 @@ This app uses data from MovieLens movie recommendations: movies and ratings. The
 
 This data is preformatted and the models pre-computed and serialized in serialize_models.R, which is not used in the app itself, but here to illustrate how the data was used and how the models (item profile, recommender model) were created.
 
+## Detailed Explanation
+
+For a detailed explanation of the code and how it was put together, see the [Github Page](https://jenka13all.github.io/rotten-tomatoes-recommendations/).
+
 ## Code Files
 
 * app.R is the main engine of the app. It loads all the files and contains the main GUI. 
